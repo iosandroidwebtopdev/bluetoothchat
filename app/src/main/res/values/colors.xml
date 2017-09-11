@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="chattab_connection_background">#E5E6E6</color>
+    <color name="list_separator">#E5E6E6</color>
+    <color name="chatmessage_name_textcolor">#424242</color>
+    <color name="chatmessage_message_textcolor">#B0B0B0</color>
+    
+    <color name="actionbar_split_color">#E5E6E6</color>
+    <color name="actionbar_title_color">#C72527</color>
+    <color name="photo_background_color">#E5E6E6</color>
+    <color name="signin_name_textcolor">#333333</color>
+    
+    <color name="signin_plus_background">#F5F6F6</color>
+    <color name="connection_textcolor">#C8C8C8</color>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:background="@drawable/friendlistcell_background">
+	<ImageView 
+	    android:id="@+id/left_menu_avatar_imageview"
+	    android:layout_width="40dp"
+	    android:layout_height="40dp"
+	    android:layout_marginLeft="15dp"
+	    android:src="@drawable/people_avatar"
+	    android:layout_centerVertical="true"
+	    android:background="@color/photo_background_color"/>
+	<ImageView 
+	    android:id="@+id/left_menu_avatar_frame_imageview"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_alignTop="@id/left_menu_avatar_imageview"
+	    android:layout_alignBottom="@id/left_menu_avatar_imageview"
+	    android:layout_alignLeft="@id/left_menu_avatar_imageview"
+	    android:layout_alignRight="@id/left_menu_avatar_imageview"
+	    android:layout_centerVertical="true"
+	    android:src="@drawable/sidebar_avatar_frame"
+	    android:background="@android:color/transparent"/>
+
+	<TextView
+	    android:id="@+id/left_menu_friend_name"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerVertical="true"
+	    android:layout_marginLeft="5dp"
+	    android:layout_toRightOf="@id/left_menu_avatar_imageview"
+	    android:text="NAME"
+	    android:textAppearance="?android:attr/textAppearanceLarge" />
+	<TextView 
+	    android:id="@+id/left_menu_new_message_count"
+	    android:layout_width="50dp"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:layout_marginRight="50dp"
+	    android:layout_centerVertical="true"
+	    android:textAppearance="?android:attr/textAppearanceLarge">
+	    
+	</TextView>
+	<ImageView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="40dp"
+	    android:layout_alignParentRight="true"
+	    android:layout_centerVertical="true"
+	    android:layout_marginRight="20dp"
+	    android:src="@drawable/arrowright"/>
+</RelativeLayout>

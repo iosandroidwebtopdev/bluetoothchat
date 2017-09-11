@@ -1,0 +1,57 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jp.co.miraishonen.cycro"
+    android:versionCode="3"
+    android:versionName="1.2" >
+
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Cycro"
+        android:name="jp.co.miraishonen.cycro.CycroApplication">
+        <activity 
+            android:name="jp.co.miraishonen.cycro.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="jp.co.miraishonen.cycro.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden">
+        </activity>
+        <activity
+            android:name="jp.co.miraishonen.cycro.HelpActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="jp.co.miraishonen.cycro.SignInActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            
+        </activity>
+        <activity 
+            android:name="jp.co.miraishonen.cycro.NearByActivity"
+            android:label="@string/friends_activity_name"
+            android:screenOrientation="portrait"></activity>
+        <activity 
+            android:name="jp.co.miraishonen.cycro.PersonalChatActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"></activity>
+        <service 
+            android:name="jp.co.miraishonen.cycro.BluetoothChatService"></service>
+    </application>
+
+</manifest>

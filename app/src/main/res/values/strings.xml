@@ -1,0 +1,30 @@
+<resources>
+
+    <string name="app_name">Cycro</string>
+	<string name="sign_in">Sign In</string>
+	<string name="name">Name</string>
+	
+	<string name="name_error">Please enter a valid username</string>
+	
+	<string name="preference_name_category">NAME</string>
+	<string name="preference_notification_category">NOTIFICATIONS</string>
+	<string name="preference_friends_category">FRIENDS</string>
+	
+	<string name="preference_username_label">NAME</string>
+	<string name="preference_nearby_notification_label">Nearby Messages</string>
+	<string name="preference_username_key">username</string>
+	<string name="preference_photo_key">photo</string>
+	<string name="preference_nearby_notification_key">nearby</string>
+	
+	<string name="tell_a_friend">Tell a Friend</string>
+	
+	<string name="settings">Setting</string>
+	
+	<string name="tab_everyone_label">EVERYONE</string>
+	<string name="tab_nearby_label">NEARBY</string>
+	
+	<string name="tab_open">Friend\'s List</string>
+	<string name="tab_close">Cycro</string>
+	
+	<string name="friends_activity_name">friends</string>
+</resources>
